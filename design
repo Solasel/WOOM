@@ -1,0 +1,19 @@
+one core RV32I implementation
+
+Slow memory (how many cycles of latency?)
+	-Paged
+TLB/Page table setup
+VIPT L1 Data/Instr caches (same? diff? specs? aliasing?)
+PIPT L2 Cache (specs? latency?)
+
+OoO execution
+	-how many issue?
+	-how big of a ROB?
+	-how many physical registers?
+
+How many functionals?
+
+Precise exception handling (or at least reporting)
+
+Branch way prediction/dest. prediction
+
